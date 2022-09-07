@@ -1,0 +1,41 @@
+
+
+=====
+
+- Kafka operated Confluent Cloud will be considered as PaaS (ordered through AWS Marketplace)
+    - client is responsible for ensuring CC T&C is compatible with Commissions requirements (usually not by default)
+
+- SNC as it stands can not be transmited through CC
+    - we recommend a separate study to understand if proposed solution is valid (one client & Laurent , epxrience with SNC)
+    - 
+
+
+- Recommendations
+    - we recommend planning for more distributed soultion/ cluster per client/ per use case
+    - problem 1: how to do chargeback/biling per client from centralized solution
+    - 
+
+- Other points
+    - use native cloud products? MSK / Kinesis
+    - C2 rarely operates service for other institutions
+    - plan to connect azure
+    - SNC questionaire for centralized solution
+
+
+https://webgate.ec.europa.eu/fpfis/wikis/display/CVTF/Management+of+SNC+data+in+IaaS+and+PaaS
+https://webgate.ec.europa.eu/fpfis/wikis/display/CVTF/GovSec+-+Infrastructure+Security+and+Compliance
+
+
+    - Marketplace ordered   
+        - running in our account or Confluent managed  (PaaS vs Saas - which is which)
+
+7D8EJdkzs#eXwU
+
+
+Eric.Derruine@ec.europa.eu
+Denis.PROST@ec.europa.eu; Miguel.RUIZ-RUIZ@ec.europa.eu
+Elton.MACHADO@ext.ec.europa.eu; Daniel.DUARTE-MENDES@ext.ec.europa.eu; Emilian.MIHAILESCU@ec.europa.eu; Alexandru.MIHAI@ec.europa.eu
+
+[CVTF-2842] DIGIT.B3 - B3 shared services (Kafka)
+
+supersede
